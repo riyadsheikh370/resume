@@ -55,19 +55,19 @@
 
     .img_one img {
         height: 100px;
-        margin-left: -25px;
+        margin-left: -29px;
     }
     .img_three img {
         height: 97px;
-        margin-left: -25px;
+        margin-left: -29px;
     }
     .typeAnimation {
         font-size: 25px !important;
-        padding-left: 45px;
+        padding-left: 50px;
     }
     .banner_right p {
         font-size: 17px;
-        margin-left: -15px;
+        margin-left: -10px;
     }
 
 }
