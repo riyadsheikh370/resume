@@ -41,7 +41,7 @@
 @media(max-width:575px) {
 
     .banner_main {
-        height: 710px;
+        height: 750px;
     }
 
     .banner_left img {
@@ -50,16 +50,16 @@
 
     .banner_right {
         opacity: 111;
-        margin-top: -660px;
+        margin-top: -630px;
     }
 
     .img_one img {
         height: 100px;
-        margin-left: -50px;
+        margin-left: -40px;
     }
     .img_three img {
         height: 97px;
-        margin-left: -50px;
+        margin-left: -40px;
     }
     .typeAnimation {
         font-size: 25px !important;

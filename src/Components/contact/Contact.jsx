@@ -43,13 +43,13 @@ const Contact = () => {
                                     </Row>
                                 </Col>
                                 <div className="text_up">
-                                <h4>Let’s Message me</h4>
+                                    <h4>Let’s Message me</h4>
                                 </div>
                                 <Col lg={{ span: 10, offset: 1 }}>
                                     <Row>
                                         <Col lg={6}>
                                             <div className="contact_left">
-                                                                                      <input type="text" placeholder="Your name" />
+                                                <input type="text" placeholder="Your name" />
                                                 <input type="text" placeholder="Your email" />
                                                 <input type="text" placeholder="Your subject" />
                                             </div>
