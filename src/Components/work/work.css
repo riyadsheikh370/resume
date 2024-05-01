@@ -1,0 +1,242 @@
+.portfolio_main {
+    background: linear-gradient(to right, rgb(233, 231, 231), darkgray);
+    height: 850px;
+    width: 100%;
+}
+
+.portfolio_main h4{
+    padding-top: 120px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(29, 24, 24);
+    font-size: 30px;
+    text-shadow: 3px 3px 2px beige;
+    text-align: center;
+}
+
+.main img {
+   width: 100%;
+   height: 450px;
+   margin-top: 100px;
+   -o-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   border-radius: 10px;
+   border: 1px solid  black;
+}
+
+.next {
+    top: 327px;
+    right: -20%;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 31px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    background-color: cadetblue;
+    border: 1px solid beige;
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+}
+
+.next:hover {
+    color: black;
+    background-color: rgb(233, 231, 231);
+    border: 1px solid black;
+}
+
+.prev1 {
+    top: 59%;
+    left: -20%;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 31px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    background-color: cadetblue;
+    border: 1px solid beige;
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+    color: white;
+}
+
+.prev1:hover {
+    color: black;
+    background-color: rgb(233, 231, 231);
+    border: 1px solid black;
+}
+
+.slick-dots {
+    position: absolute;
+    left: 35%;
+    bottom: -50px;
+}
+
+.slick-dots li {
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background-color: teal;
+    margin: 0 2px;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.slick-dots li button {
+    height: 8px;
+    width: 8px;
+    border: none;
+    background-color: white;
+    color: transparent;
+    position: absolute;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+.portfolio_right h3{
+    padding-top: 94px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(29, 24, 24);
+    font-size: 20px;
+    margin-left: 51px;
+}
+
+.demo{
+    width: 100%;
+    height: 180px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgb(233, 231, 231);
+    border-bottom: 1px solid black;
+}
+
+.demo a span{
+    font-family: "Roboto", sans-serif;
+    color: rgb(29, 24, 24);
+    font-size: 14px;
+    text-shadow: 3px 3px 2px beige;
+    margin-left: 10px;
+}
+.demo a:hover span{
+    border-bottom: 1px solid gray;
+  }
+.demo a img{
+   width: 100%;
+   height: 150px;
+   -o-border-radius: 5px;
+   -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   border-radius: 5px;
+   border: 1px solid black;
+}
+
+.demod h5{
+    padding-top: 25px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(29, 24, 24);
+    font-size: 15px;
+   
+}
+.demod ul li a {
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(29, 24, 24);
+    font-size: 14px;
+    margin-left: -30px;
+}
+.demod ul li a:hover span{
+  border-bottom: 1px solid gray;
+}
+
+
+/* responsive part start */
+
+@media(max-width:575px) {
+
+    .portfolio_main{
+        height: 1250px;
+    }
+
+    .portfolio_main h4 {
+        padding-top: 70px;
+    }
+
+    .main img {
+        width: 70%;
+        height: 300px;
+        margin-top: 40px;
+        margin-left: 15%;
+     }
+
+     .next {
+        top: 198px;
+        right: 1%;
+        height: 30px;
+        width: 30px;
+        line-height: 21px;
+    }
+    
+    .prev1 {
+        top: 58%;
+        left: 1%;
+        height: 30px;
+        width: 30px;
+        line-height: 21px;
+    }
+
+    .demo{
+        width: 80%;
+        height: 170px;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+
+    .demo a img{
+        width: 100%;
+        height: 140px;
+     }
+     .demod h5{
+        padding-top: 25px;
+       padding-left: 10%;
+    }
+    .demod ul li a {
+        margin-top: 30px;
+      margin-left: 10%;
+    }
+    
+}
+
+/* responsive part end */
