@@ -175,3 +175,7 @@
 }
 
 /* responsive part end */
+
+*{
+    overflow: hidden;
+}
