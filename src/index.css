@@ -1,14 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
+
 }
-a{
+
+a {
     text-decoration: none !important;
 }
-ul{
+
+ul {
     list-style: none !important;
 }
-.menu_bg{
+
+.menu_bg {
     position: fixed !important;
     z-index: 10;
 }
