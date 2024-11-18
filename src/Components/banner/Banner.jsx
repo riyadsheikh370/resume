@@ -1,7 +1,7 @@
 import React from 'react'
 import './banner.css'
 import { Col, Container, Row } from 'react-bootstrap'
-import Me from "../../assets/me.png"
+import Me1 from "../../assets/me1.jpg"
 import Du from "../../assets/banner_du.png"
 import Dd from "../../assets/banner_dd.png"
 import { TypeAnimation } from 'react-type-animation';
@@ -16,7 +16,7 @@ const Banner = () => {
                         <Row>
                             <Col lg={6}>
                                 <div className="banner_left">
-                                    <img src={Me} alt={Me} />
+                                    <img src={Me1} alt={Me1}/>
                                 </div>
                             </Col>
                             <Col lg={6}>
@@ -40,6 +40,14 @@ const Banner = () => {
                                     <div className="img_three">
                                         <img src={Dd} alt={Dd} />
                                     </div>
+                                    {/* <div className="data">
+                                        <div className="cv">
+                                            <a href="assets/cv.pdf">CV</a>
+                                        </div>
+                                        <div className="github">
+                                            <a href="https://github.com/riyadsheikh370">Github</a>
+                                        </div>
+                                    </div> */}
                                 </div>
                             </Col>
                         </Row>

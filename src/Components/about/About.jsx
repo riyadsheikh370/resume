@@ -34,13 +34,13 @@ const About = () => {
                                 <Col lg={{ span: 10, offset: 1 }}>
                                     <Row>
                                         <Col lg={3}>
-                                            <Aboutresuable logo={Node} title="Node.js" />
+                                            <Aboutresuable logo={Node} title="JavaScript" />
                                         </Col>
                                         <Col lg={3}>
-                                            <Aboutresuable logo={Rt} title="React" />
+                                            <Aboutresuable logo={Rt} title="React.JS" />
                                         </Col>
                                         <Col lg={3}>
-                                            <Aboutresuable logo={Vj} title="Vanilla JavaScript" />
+                                            <Aboutresuable logo={Vj} title="Node.JS" />
                                         </Col>
                                         <Col lg={3}>
                                             <Aboutresuable logo={Mg} title="MongoDB" />

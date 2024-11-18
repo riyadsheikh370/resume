@@ -2,12 +2,19 @@
     background: linear-gradient(to right, rgb(233, 231, 231), darkgray);
     height: 820px;
 }
-
+/* 
 .banner_left img {
     padding-top: 180px;
     height: 680px;
     width: 90%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.banner_left img {
+    /* padding-top: 30px; */
+    height: 820px;
+    width: 100%;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .img_one img {

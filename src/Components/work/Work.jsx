@@ -6,12 +6,14 @@ import Rd from "../../assets/rd.jpg"
 import Rs from "../../assets/rs.jpg"
 import Mee from "../../assets/mee.jpg"
 import Rl from "../../assets/rl.jpg"
-import PP from "../../assets/pp.png"
-import Pn from "../../assets/pn.png"
+// import PP from "../../assets/pp.png"
+// import Pn from "../../assets/pn.png"
 import { MdNavigateNext } from "react-icons/md";
 import { GrFormPrevious } from "react-icons/gr";
-import { MdArrowRight } from "react-icons/md";
-import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
+// import { MdArrowRight } from "react-icons/md";
+// import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
+import { FaSquareGithub } from "react-icons/fa6";
+import { FaIdCard } from "react-icons/fa";
 function SampleNextArrow(props) {
     const { onClick } = props;
     return (
@@ -46,7 +48,7 @@ const Work = () => {
                     <Row>
                         <Col lg={12}>
                             <div className="portfolio_main">
-                                <h4>Creative Portfolio</h4>
+                                <h4>Portfolio</h4>
                                 <Row>
                                     <Col lg={6}>
                                         <div className="portfolio_left">
@@ -70,16 +72,20 @@ const Work = () => {
                                     </Col>
                                     <Col lg={6}>
                                         <div className="portfolio_right">
-                                            <Col lg={3}>
+
+                                            <a href="https://github.com/riyadsheikh370"><FaSquareGithub />Go to <b>GitHub</b></a>
+                                            <a href="assets/riyad's cv"><FaIdCard />Download <b>CV</b></a>
+
+                                            {/* <Col lg={3}>
                                                 <h3>projects<MdOutlineKeyboardDoubleArrowDown /></h3>
-                                            </Col>
-                                            <Col lg={{ span: 10, offset: 1 }}>
+                                            </Col> */}
+                                            {/* <Col lg={{ span: 10, offset: 1 }}>
                                                 <Row>
 
                                                     <Col lg={6}>
                                                         <div className="demo">
                                                             <a href="https://vermillion-alpaca-01e93d.netlify.app/">
-                                                                <img src={Pn} alt={Pn} />
+                                                 <img src={Pn} alt={Pn} />
                                                             </a>
                                                             <a href="https://vermillion-alpaca-01e93d.netlify.app/"><span>Emprise</span></a>
                                                         </div>
@@ -108,7 +114,7 @@ const Work = () => {
                                                         </ul>
                                                     </div>
                                                 </Col>
-                                            </Col>
+                                            </Col> */}
                                         </div>
                                     </Col>
                                 </Row>
