@@ -51,22 +51,22 @@
         height: 750px;
     }
 
-    .banner_left img {
+    /* .banner_left img {
         opacity: 0;
-    }
+    } */
 
     .banner_right {
         opacity: 111;
-        margin-top: -630px;
+        margin-top: -760px;
     }
 
     .img_one img {
         height: 100px;
-        margin-left: -31px;
+        margin-left: -11%;
     }
     .img_three img {
         height: 97px;
-        margin-left: -31px;
+        margin-left: -12%;
     }
     .typeAnimation {
         font-size: 25px !important;
