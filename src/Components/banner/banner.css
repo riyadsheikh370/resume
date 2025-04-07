@@ -2,6 +2,7 @@
     background: linear-gradient(to right, rgb(233, 231, 231), darkgray);
     height: 820px;
 }
+
 /* 
 .banner_left img {
     padding-top: 180px;
@@ -45,7 +46,7 @@
 
 /* responsive part start */
 
-@media(max-width:575px) {
+@media (min-width: 375px) and (max-width: 575px) {
 
     .banner_main {
         height: 750px;
@@ -64,19 +65,23 @@
         height: 100px;
         margin-left: -11%;
     }
+
     .img_three img {
         height: 97px;
         margin-left: -12%;
     }
+
     .typeAnimation {
         font-size: 25px !important;
         padding-left: 63px;
     }
+
     .banner_right p {
         font-size: 17px;
         margin-left: -6px;
     }
-    #banner{
+
+    #banner {
         overflow: hidden;
     }
 

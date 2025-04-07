@@ -72,12 +72,13 @@ const Work = () => {
                                     </Col>
                                     <Col lg={6}>
                                         <div className="portfolio_right">
-                                            <a href="https://github.com/riyadsheikh370"><FaSquareGithub />Go to <b>GitHub</b></a>
-                                            <a href="/developer_riyadsheikh.pdf"
+                                            <a className='cvg' href="https://github.com/riyadsheikh370"><FaSquareGithub />Go to <b>GitHub</b></a>
+                                            <a className='cvv' href="/developer_riyadsheikh.pdf"
                                                 download
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                ><FaIdCard />Download <b>CV</b></a>
+                                                ><FaIdCard />Download <b>CV</b>
+                                                </a>
 
                                             {/* <Col lg={3}>
                                                 <h3>projects<MdOutlineKeyboardDoubleArrowDown /></h3>

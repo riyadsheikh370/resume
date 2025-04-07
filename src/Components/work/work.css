@@ -205,10 +205,10 @@
 
 /* responsive part start */
 
-@media(max-width:575px) {
+@media (min-width: 375px) and (max-width: 575px) {
 
     .portfolio_main {
-        height: 1250px;
+        height: 700px;
     }
 
     .portfolio_main h4 {
@@ -260,6 +260,22 @@
         margin-left: 10%;
     }
 
+    .cvg {
+        font-size: 32px !important;
+        padding: 5px;
+        margin-left: 70px !important;
+    }
+    .cvv {
+        position: absolute;
+        margin-left: -230px !important;
+        margin-top: 60px;
+        font-size: 29px !important;
+        padding: 3px 8px 3px 8px;
+        font-size: 30px !important;
+    }
+    .portfolio_right{
+        margin-top: 80px;
+    }
 }
 
 /* responsive part end */
