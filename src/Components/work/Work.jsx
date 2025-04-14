@@ -44,46 +44,45 @@ const Work = () => {
     return (
         <>
             <section id='work'>
-                <Container>
-                    <Row>
-                        <Col lg={12}>
-                            <div className="portfolio_main">
-                                <h4>Portfolio</h4>
-                                <Row>
-                                    <Col lg={6}>
-                                        <div className="portfolio_left">
-                                            <Col lg={{ span: 8, offset: 2 }}>
-                                                <Slider {...settings}>
-                                                    <div className="main">
-                                                        <img src={Rl} alt={Rl} />
-                                                    </div>
-                                                    <div className="main">
-                                                        <img src={Rd} alt={Rd} />
-                                                    </div>
-                                                    <div className="main">
-                                                        <img src={Rs} alt={Rs} />
-                                                    </div>
-                                                    <div className="main">
-                                                        <img src={Mee} alt={Mee} />
-                                                    </div>
-                                                </Slider>
-                                            </Col>
-                                        </div>
-                                    </Col>
-                                    <Col lg={6}>
-                                        <div className="portfolio_right">
-                                            <a className='cvg' href="https://github.com/riyadsheikh370"><FaSquareGithub />Go to <b>GitHub</b></a>
-                                            <a className='cvv' href="/developer_riyadsheikh.pdf"
-                                                download
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                ><FaIdCard />Download <b>CV</b>
-                                                </a>
+                <Row>
+                    <Col lg={12}>
+                        <div className="portfolio_main">
+                            <h4>Portfolio</h4>
+                            <Row>
+                                <Col lg={6}>
+                                    <div className="portfolio_left">
+                                        <Col lg={{ span: 8, offset: 2 }}>
+                                            <Slider {...settings}>
+                                                <div className="main">
+                                                    <img src={Rl} alt={Rl} />
+                                                </div>
+                                                <div className="main">
+                                                    <img src={Rd} alt={Rd} />
+                                                </div>
+                                                <div className="main">
+                                                    <img src={Rs} alt={Rs} />
+                                                </div>
+                                                <div className="main">
+                                                    <img src={Mee} alt={Mee} />
+                                                </div>
+                                            </Slider>
+                                        </Col>
+                                    </div>
+                                </Col>
+                                <Col lg={6}>
+                                    <div className="portfolio_right">
+                                        <a className='cvg' href="https://github.com/riyadsheikh370"><FaSquareGithub />Go to <b>GitHub</b></a>
+                                        <a className='cvv' href="/developer_riyadsheikh.pdf"
+                                            download
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        ><FaIdCard />Download <b>CV</b>
+                                        </a>
 
-                                            {/* <Col lg={3}>
+                                        {/* <Col lg={3}>
                                                 <h3>projects<MdOutlineKeyboardDoubleArrowDown /></h3>
                                             </Col> */}
-                                            {/* <Col lg={{ span: 10, offset: 1 }}>
+                                        {/* <Col lg={{ span: 10, offset: 1 }}>
                                                 <Row>
 
                                                     <Col lg={6}>
@@ -119,13 +118,12 @@ const Work = () => {
                                                     </div>
                                                 </Col>
                                             </Col> */}
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
+                                    </div>
+                                </Col>
+                            </Row>
+                        </div>
+                    </Col>
+                </Row>
             </section>
         </>
     )

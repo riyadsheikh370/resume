@@ -32,6 +32,10 @@
 }
 
 
+.banner_right {
+    margin-left: 17%;
+    margin-top: 7%;
+}
 .banner_right p {
     font-family: "Roboto", sans-serif;
     color: rgb(35, 35, 35);
@@ -43,37 +47,35 @@
     text-align: center;
 }
 
-
 /* responsive part start */
 
 @media (min-width: 375px) and (max-width: 575px) {
 
     .banner_main {
-        height: 750px;
+        height: 700px;
     }
 
-    /* .banner_left img {
-        opacity: 0;
-    } */
+    .banner_left img {
+     height: 700px;
+    }
 
     .banner_right {
         opacity: 111;
-        margin-top: -760px;
+        margin-top: -680px;
+        margin-left: -5%;
     }
 
     .img_one img {
         height: 100px;
-        margin-left: -11%;
     }
 
     .img_three img {
         height: 97px;
-        margin-left: -12%;
     }
 
     .typeAnimation {
         font-size: 25px !important;
-        padding-left: 63px;
+        padding-left: 90px;
     }
 
     .banner_right p {

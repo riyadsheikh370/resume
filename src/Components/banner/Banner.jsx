@@ -11,48 +11,38 @@ const Banner = () => {
     return (
         <>
             <section id='banner'>
-                <Container>
-                    <div className="banner_main">
-                        <Row>
-                            <Col lg={6}>
-                                <div className="banner_left">
-                                    <img src={Me1} alt={Me1}/>
+                <div className="banner_main">
+                    <Row>
+                        <Col lg={6}>
+                            <div className="banner_left">
+                                <img src={Me1} alt={Me1} />
+                            </div>
+                        </Col>
+                        <Col lg={6}>
+                            <div className="banner_right">
+                                <div className="img_one">
+                                    <img src={Du} alt={Du} />
                                 </div>
-                            </Col>
-                            <Col lg={6}>
-                                <div className="banner_right">
-                                    <div className="img_one">
-                                        <img src={Du} alt={Du} />
-                                    </div>
-                                    <TypeAnimation className='typeAnimation'
-                                        sequence={[
-                                            'Hi, I am Riyad Sheikh',
-                                            1000,
-                                            'Creative Web desginer_',
-                                            1000
-                                        ]}
-                                        wrapper="span"
-                                        speed={50}
-                                        style={{ fontSize: '2em', display: 'inline-block' }}
-                                        repeat={Infinity}
-                                    />
-                                    <p>I'm a front‑end developer <br /> with user‑friendly experiences.</p>
-                                    <div className="img_three">
-                                        <img src={Dd} alt={Dd} />
-                                    </div>
-                                    {/* <div className="data">
-                                        <div className="cv">
-                                            <a href="assets/cv.pdf">CV</a>
-                                        </div>
-                                        <div className="github">
-                                            <a href="https://github.com/riyadsheikh370">Github</a>
-                                        </div>
-                                    </div> */}
+                                <TypeAnimation className='typeAnimation'
+                                    sequence={[
+                                        'Hi, I am Riyad Sheikh',
+                                        1000,
+                                        'Creative Web developer_',
+                                        1000
+                                    ]}
+                                    wrapper="span"
+                                    speed={50}
+                                    style={{ fontSize: '2em', display: 'inline-block' }}
+                                    repeat={Infinity}
+                                />
+                                <p>I'm a front‑end developer <br /> with user‑friendly experiences.</p>
+                                <div className="img_three">
+                                    <img src={Dd} alt={Dd} />
                                 </div>
-                            </Col>
-                        </Row>
-                    </div>
-                </Container>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
             </section>
         </>
     )
